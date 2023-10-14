@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsAppUI - TailwindCSS</title>
+    
+    <!-- Tailwindcss -->
+    <link rel="stylesheet" href="./assets/css/output.css">
+</head>
+<body>
+
+    <!-- Template -->
+   <section class="bg-green-500 font-mono py-10 px-10">
+        <h2 class="mb-5 text-xl text-center text-white font-bold">WhatsAppUI Challege - <a href="https://github.com/Thahee02/whatsApp-UI" class="underline">Hathil Thahee</a></h2>
+        
+        <!-- WhatsApp UI -->
+        <div class="pt-1 max-w-sm mx-auto mb-4">
+            
+            <!-- Header -->
+            <div class="flex items-center justify-between bg-emerald-700 px-5">
+
+                <!-- Logo -->
+                <h3 class="text-white text-xl my-3 hover:cursor-default font-sans">WhatsApp</h3>
+
+                <!-- Icons -->
+                <div class="text-white flex items-center space-x-2">
+                    
+                    <!-- Camera Icon -->
+                    <div class="p-1 hover:bg-gray-500 hover:rounded-full cursor-pointer justify-center items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M12 17.5q1.875 0 3.188-1.313T16.5 13q0-1.875-1.313-3.188T12 8.5q-1.875 0-3.188 1.313T7.5 13q0 1.875 1.313 3.188T12 17.5Zm0-2q-1.05 0-1.775-.725T9.5 13q0-1.05.725-1.775T12 10.5q1.05 0 1.775.725T14.5 13q0 1.05-.725 1.775T12 15.5ZM4 21q-.825 0-1.413-.588T2 19V7q0-.825.588-1.413T4 5h3.15L9 3h6l1.85 2H20q.825 0 1.413.588T22 7v12q0 .825-.588 1.413T20 21H4Zm0-2h16V7h-4.05l-1.825-2h-4.25L8.05 7H4v12Zm8-6Z"/>
+                        </svg>
+                    </div>
+                    
+                    <!-- Search Icon -->
+                    <div class="p-1 hover:bg-gray-500 hover:rounded-full cursor-pointer justify-center items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M9.5 16q-2.725 0-4.612-1.888T3 9.5q0-2.725 1.888-4.612T9.5 3q2.725 0 4.612 1.888T16 9.5q0 1.1-.35 2.075T14.7 13.3l5.6 5.6q.275.275.275.7t-.275.7q-.275.275-.7.275t-.7-.275l-5.6-5.6q-.75.6-1.725.95T9.5 16Zm0-2q1.875 0 3.188-1.313T14 9.5q0-1.875-1.313-3.188T9.5 5Q7.625 5 6.312 6.313T5 9.5q0 1.875 1.313 3.188T9.5 14Z"/>
+                        </svg>
+                    </div>
+                    
+                    <!-- 3 Dot Icon -->
+                    <div class="p-1 hover:bg-gray-500 hover:rounded-full cursor-pointer justify-center items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M12 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2Z"/>
+                        </svg>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+            <!-- Chat -->
+            <div class="bg-white px-1 py-2 font-sans">
+                <div class="flex items-center pt-1 pb-1 hover:bg-gray-100 cursor-pointer">
+                    <img src="https://ui-avatars.com/api/?name=Single+Pasanga&background=random&text=#fff&font=bold" alt="Single Pasanga" class="w-12 h-12 rounded-full ml-2">
+                    <div class="flex flex-1 items-center justify-between ml-3 pr-4">
+                        <div class="items-center">
+                            <div>
+                                <p class="font-semibold text-m font-sans">Single Pasanga</p>
+                                <p class="text-xs">Nuski: Afternoon da</p>
+                            </div>
+                        </div>
+                        <div class="flex-column items-center relative">
+                            <p class="text-xs mb-1">12:02</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="absolute right-1 rotate-45">
+                                <path fill="currentColor" d="m16 12l2 2v2h-5v6l-1 1l-1-1v-6H6v-2l2-2V5H7V3h10v2h-1v7Z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center pt-1 pb-1 hover:bg-gray-100 cursor-pointer">
+                    <img src="https://ui-avatars.com/api/?name=Fiverr+Discussion&background=random&text=#fff&font=bold" alt="Single Pasanga" class="w-12 h-12 rounded-full ml-2">
+                    <div class="flex flex-1 items-center justify-between ml-3 pr-4">
+                        <div class="items-center">
+                            <div>
+                                <p class="font-semibold text-m font-sans">Fiverr Discussion</p>
+                                <p class="text-xs">NM Ahnaf(devil): &#128546;</p>
+                            </div>
+                        </div>
+                        <div class="flex-column items-center relative">
+                            <p class="text-xs mb-1">10/10/23</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="absolute right-1 rotate-45">
+                                <path fill="currentColor" d="m16 12l2 2v2h-5v6l-1 1l-1-1v-6H6v-2l2-2V5H7V3h10v2h-1v7Z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center pt-1 pb-1 hover:bg-gray-100 cursor-pointer">
+                    <img src="https://ui-avatars.com/api/?name=Ahnaf+DJ&background=random&text=#fff&font=bold" alt="Single Pasanga" class="w-12 h-12 rounded-full ml-2">
+                    <div class="flex flex-1 items-center justify-between ml-3 pr-4">
+                        <div class="items-center">
+                            <div>
+                                <p class="font-semibold text-m font-sans">Ahanf (DJ)</p>
+                                <p class="text-xs">Illa</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-xs">Yesterday</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center pt-1 pb-1 hover:bg-gray-100 cursor-pointer">
+                    <img src="https://ui-avatars.com/api/?name=Sahip&background=random&text=#fff&font=bold" alt="Single Pasanga" class="w-12 h-12 rounded-full ml-2">
+                    <div class="flex flex-1 items-center justify-between ml-3 pr-4">
+                        <div class="items-center">
+                            <div>
+                                <p class="font-semibold text-m font-sans">Sahip</p>
+                                <p class="text-xs">Dei avanda name Rina</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-xs">Yesterday</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center pt-1 pb-1 hover:bg-gray-100 cursor-pointer">
+                    <img src="https://ui-avatars.com/api/?name=Asry&background=random&text=#fff&font=bold" alt="Single Pasanga" class="w-12 h-12 rounded-full ml-2">
+                    <div class="flex flex-1 items-center justify-between ml-3 pr-4">
+                        <div class="items-center">
+                            <div>
+                                <p class="font-semibold text-m font-sans">Asry</p>
+                                <p class="text-xs">You reacted &#128077; to "Vanthutraaaaaa&#128516;"</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-xs">Yesterday</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center pt-1 pb-1 hover:bg-gray-100 cursor-pointer">
+                    <img src="https://ui-avatars.com/api/?name=Arsath+Airtel&background=random&text=#fff&font=bold" alt="Single Pasanga" class="w-12 h-12 rounded-full ml-2">
+                    <div class="flex flex-1 items-center justify-between ml-3 pr-4">
+                        <div class="items-center">
+                            <div>
+                                <p class="font-semibold text-m font-sans">Arsath Airtel</p>
+                                <p class="text-xs">Theriya</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-xs">10/10/23</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center pt-1 pb-1 hover:bg-gray-100 cursor-pointer">
+                    <img src="https://ui-avatars.com/api/?name=Hanan&background=random&text=#fff&font=bold" alt="Single Pasanga" class="w-12 h-12 rounded-full ml-2">
+                    <div class="flex flex-1 items-center justify-between ml-3 pr-4">
+                        <div class="items-center">
+                            <div>
+                                <p class="font-semibold text-m font-sans">Hanan</p>
+                                <p class="text-xs">M vaaran</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-xs">10/10/23</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center pt-1 pb-1 hover:bg-gray-100 cursor-pointer">
+                    <img src="https://ui-avatars.com/api/?name=Sanabil+Whatsapp&background=random&text=#fff&font=bold" alt="Single Pasanga" class="w-12 h-12 rounded-full ml-2">
+                    <div class="flex flex-1 items-center justify-between ml-3 pr-4">
+                        <div class="items-center">
+                            <div>
+                                <p class="font-semibold text-m font-sans">Sanabil Whatsapp</p>
+                                <p class="text-xs">Insha allah kaalaila vaa</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-xs">9/10/23</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center pt-1 pb-1 hover:bg-gray-100 cursor-pointer">
+                    <img src="https://ui-avatars.com/api/?name=Rathwan&background=random&text=#fff&font=bold" alt="Single Pasanga" class="w-12 h-12 rounded-full ml-2">
+                    <div class="flex flex-1 items-center justify-between ml-3 pr-4">
+                        <div class="items-center">
+                            <div>
+                                <p class="font-semibold text-m font-sans">Rathwan</p>
+                                <p class="text-xs">.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-xs">9/10/23</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Menus -->
+            <div class="bg-emerald-700 text-white flex items-center justify-between px-5 py-5">
+                <div class="flex-column items-center justify-center">
+                    <div class="bg-gray-400 px-1 rounded-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" class="mx-auto">
+                            <path fill="currentColor" d="m5 8.75l-2.75-3.1q-.425-.5-.162-1.075Q2.35 4 3 4h17q.825 0 1.413.588Q22 5.175 22 6v12q0 .825-.587 1.413Q20.825 20 20 20H7q-.825 0-1.412-.587Q5 18.825 5 18ZM9 13h9q.425 0 .712-.288Q19 12.425 19 12t-.288-.713Q18.425 11 18 11H9q-.425 0-.712.287Q8 11.575 8 12t.288.712Q8.575 13 9 13Zm0 3h6q.425 0 .713-.288Q16 15.425 16 15t-.287-.713Q15.425 14 15 14H9q-.425 0-.712.287Q8 14.575 8 15t.288.712Q8.575 16 9 16Zm0-6h9q.425 0 .712-.288Q19 9.425 19 9t-.288-.713Q18.425 8 18 8H9q-.425 0-.712.287Q8 8.575 8 9t.288.712Q8.575 10 9 10Z"/>
+                        </svg>
+                    </div>
+                    <div>Chats</div>
+                </div>
+                <div class="flex-column items-center justify-center">
+                    <div class="bg-gray-400 px-1 rounded-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" class="mx-auto">
+                            <path fill="currentColor" d="m5 8.75l-2.75-3.1q-.425-.5-.162-1.075Q2.35 4 3 4h17q.825 0 1.413.588Q22 5.175 22 6v12q0 .825-.587 1.413Q20.825 20 20 20H7q-.825 0-1.412-.587Q5 18.825 5 18ZM9 13h9q.425 0 .712-.288Q19 12.425 19 12t-.288-.713Q18.425 11 18 11H9q-.425 0-.712.287Q8 11.575 8 12t.288.712Q8.575 13 9 13Zm0 3h6q.425 0 .713-.288Q16 15.425 16 15t-.287-.713Q15.425 14 15 14H9q-.425 0-.712.287Q8 14.575 8 15t.288.712Q8.575 16 9 16Zm0-6h9q.425 0 .712-.288Q19 9.425 19 9t-.288-.713Q18.425 8 18 8H9q-.425 0-.712.287Q8 8.575 8 9t.288.712Q8.575 10 9 10Z"/>
+                        </svg>
+                    </div>
+                    <div>Updates</div>
+                </div>
+                
+            </div>
+
+        </div>
+
+   </section>
+</body>
+</html>
